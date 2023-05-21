@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    color: aliceblue;
+    background: url("https://cutt.ly/kX2TCgw") no-repeat center;
+    background-size: cover;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.item {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Silkscreen', cursive;
+}
+
+.item .count_down {
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
+
+}
